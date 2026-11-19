@@ -2,6 +2,7 @@
 !/.gitignore
 !/.nojekyll
 !/app-ads.txt
+!/robots.txt
 !/index.html
 !/assets/
 !/assets/site.css
