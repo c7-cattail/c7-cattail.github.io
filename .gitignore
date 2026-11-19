@@ -1,0 +1,15 @@
+*
+!/.gitignore
+!/.nojekyll
+!/app-ads.txt
+!/index.html
+!/assets/
+!/assets/site.css
+!/assets/nyaako-icon.png
+!/assets/nyaako-journey.png
+!/nyaako/
+!/nyaako/index.html
+!/nyaako/support/
+!/nyaako/support/index.html
+!/nyaako/privacy/
+!/nyaako/privacy/index.html
