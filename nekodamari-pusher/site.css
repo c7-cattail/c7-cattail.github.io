@@ -1,0 +1,13 @@
+:root { color-scheme: dark; background: #101626; color: #faf0df; font: 16px/1.75 system-ui, sans-serif; }
+body { margin: 0; }
+main { max-width: 960px; padding: 28px 20px; margin: auto; }
+.hero { display: grid; align-items: center; min-height: clamp(315px, 48vw, 500px); padding: 22px; border: 1px solid #9d7947; border-radius: 22px; background: linear-gradient(90deg,#0a1634b8,transparent 77%),url(hero.jpg) center/cover; }
+h1, h2 { line-height: 1.28; }
+.hero h1 { font-size: clamp(2.2rem, 7vw, 4.9rem); margin: 0; text-shadow: 0 2px 14px #090e1d; }
+.hero p { color: #ffda9c; font-weight: 700; margin-bottom: 0; }
+section { margin-top: 36px; max-width: 68ch; }
+details { padding: 8px 0; border-top: 1px solid #4c4d60; } summary { cursor: pointer; }
+a { color: #ffcf86; text-underline-offset: 4px; }
+footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; border-top: 1px solid #4c4d60; padding-top: 18px; margin-top: 38px; }
+.policy { max-width: 70ch; }
+@media(max-width: 520px) { .hero { align-items: start; background-position: 68% center; } }
